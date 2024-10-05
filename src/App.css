@@ -1,0 +1,22 @@
+.container{
+  text-align: center;
+  padding: 20px;
+}
+
+.counter{
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* responsive style */
+@media (max-width:768px){
+  .container{
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width:480px){
+  .container{
+    font-size: 1.2rem;
+  }
+}
